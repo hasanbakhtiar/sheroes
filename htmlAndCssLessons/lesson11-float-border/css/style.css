@@ -1,0 +1,51 @@
+header nav ul{
+    width: 50%;
+    background-color: red;
+    padding: 20px 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.line{
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+}
+
+
+
+/* main{
+    width: 50%;
+}
+
+img{
+    float: right;
+}
+.free{
+    clear: both;
+}
+ */
+
+
+/* .box{
+    width: 40%;
+    height: 50vh;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/03/10/318375-nature-landscape-lake-mountain-forest-wildflowers-spring-pine_trees-path-Switzerland-HDR.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: red;
+} */
+
+

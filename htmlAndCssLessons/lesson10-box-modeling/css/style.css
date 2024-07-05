@@ -1,0 +1,32 @@
+.main-box{
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+}
+
+.main-box .box{
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    /* background-color: #4d4d8211; */
+    /* background-color: rgb(20, 30,55); */
+    /* background-color: rgba(20, 30,55,.1); */
+    /* background-color: #57a9b083; */
+    /* 0123456789abcdef */
+    /* padding: 140px 40px 20px 10px ; */
+}
+
+/* html{
+    font-size: 5px;
+}
+
+
+
+main{
+    font-size: 10px;
+}
+
+
+main p{
+    font-size: 10em;
+} */
