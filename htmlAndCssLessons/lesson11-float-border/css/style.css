@@ -1,4 +1,19 @@
-header nav ul{
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 4px solid #000;
+    box-shadow: 37px 35px 35px 17px rgba(77,62,138,0.5);
+    /* border-top-left-radius: 50%; */
+    /* border-top-right-radius: 50%; */
+    /* border-left: 13px solid #000;
+    border-top: 13px double gold;
+    border-right: 23px dotted orangered;
+    border-bottom: 23px dotted orangered; */
+}
+
+
+/* header nav ul{
     width: 50%;
     background-color: red;
     padding: 20px 0px;
@@ -20,7 +35,7 @@ header nav ul li a{
     width: 50%;
     height: 1px;
     background-color: #000;
-}
+} */
 
 
 

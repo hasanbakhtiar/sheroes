@@ -1,0 +1,54 @@
+.first-box {
+    width: 40%;
+    height: 70vh;
+    float: left;
+    margin-right: 20px;
+}
+
+.first-box .top-box,.bottom-box{
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.first-box .middle-main-box{
+    width: 100%;
+    height: 30vh;
+
+}
+.first-box .middle-main-box .left-box{
+    width: 67%;
+    height: 30vh;
+    background-color: orangered;
+    float: left;
+}
+.first-box .middle-main-box .right-box{
+    width: 30%;
+    height: 30vh;
+    background-color: orangered;
+    float: right;
+}
+.first-box .main-blue-box{
+    height: 20vh;
+    width: 100%;
+}
+.first-box .main-blue-box .blue-box{
+    margin-top: 10px;
+    width: 33%;
+    height: 20vh;
+    background-color: aqua;
+    float: left;
+    
+}
+.first-box .main-blue-box .blue-box:nth-child(2){
+
+    margin:10px 3.8px
+}
+
+.second-box{
+    float: left;
+    width: 30%;
+    height: 70vh;
+    background-color: black;
+}
