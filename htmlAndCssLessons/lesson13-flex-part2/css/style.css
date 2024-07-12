@@ -1,0 +1,35 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #333;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    gap: 20px;
+    /* align-items: stretch; */
+    /* align-content: start; */
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: #fff;
+        font-weight: bolder;
+        font-family: sans-serif;
+        &:hover{
+            background-color: #333;
+            border:2px solid #fff;
+        }
+
+    }
+}
