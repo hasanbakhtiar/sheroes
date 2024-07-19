@@ -1,0 +1,66 @@
+
+/* i{
+    animation: boom 2s infinite linear ;
+    animation-delay: 4s;
+}
+
+@keyframes boom{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+/* .box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: info;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); 
+
+}
+
+
+@keyframes info{
+    0%{
+        left: 0;
+    }
+    25%{
+        background-color: yellow;
+        border-radius: 50%;
+        border: 3px solid #000;
+        top: 0px;
+        left: 200px;
+    }
+    50%{
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+
+} */
+
+
+
+/* @keyframes info{
+    from{
+        left: 0;
+    }
+    to{
+        left: 200px;
+    }
+} */
