@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">AZN</a></li>
+                            <li><a class="dropdown-item" href="#">TRY</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <ul class="d-flex mt-2">
+                        <li><a class="text-secondary" href="#">My cart</a></li>
+                        <li><a class="text-secondary mx-3" href="#">Wishlist</a></li>
+                        <li><a class="text-secondary" href="#">Login/Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">Appa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 golden-nav">
+                        <li class="nav-item py-3 px-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item py-3 px-3">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item py-3 px-3">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item py-3 px-3">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item py-3 px-3">
+                            <a class="nav-link" href="#">Vendor</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="d-flex badge-cart">
+                        <a class="position-relative">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+
+    <!-- Main Start -->
+    <main>
+        <section class="hero container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img style="object-fit: cover;" height="500"
+                            src="https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/02/oppo-find-n2-flip-hero-li.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img style="object-fit: cover;" height="500"
+                            src="https://www.chooseyourmobile.com/wp-content/uploads/2022/12/Oppo-Find-N2-Flip-Image2-1210x642.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <div class="promotion-card-con container mb-3">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 mt-3">
+                    <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/03/banner1.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 mt-3">
+                    <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/03/banner2.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 mt-3">
+                    <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/03/banner3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <section class="product-con container">
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">$80.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">$80.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">$80.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">$80.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mid-watch container my-4">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img style="width: 100%;" src="https://demo.themeftc.com/appa/wp-content/uploads/2017/02/image1.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 mt-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 ">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img  src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mid-watch container my-4">
+            <div class="row">
+            
+                <div class="col-12 col-sm-12 col-md-8 mt-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 ">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+
+
+
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img  src="https://demo.themeftc.com/appa/wp-content/uploads/2017/05/7-300x300.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img style="width: 100%;" src="https://demo.themeftc.com/appa/wp-content/uploads/2017/02/image1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="camera-con container bg-secondary p-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <img style="height: 600px; object-fit: cover; width: 100%;" src="https://demo.themeftc.com/appa/wp-content/uploads/2018/10/35.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 mt-5">
+                            <div class="card text-bg-dark">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/522/943/original/abstract-technology-background-with-the-hi-tech-futuristic-concept-cyber-technology-innovation-background-vector-illustration.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>    
+                        </div>
+                    </div>
+        </section>
+
+    </main>
+    <!-- Main End -->
+
+
+    <!-- Footer Start -->
+    <footer></footer>
+    <!-- Footer End -->
+
+
+
+
+
+
+    <script src="assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

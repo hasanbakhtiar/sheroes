@@ -1,0 +1,37 @@
+li{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.golden-nav{
+    .nav-item{
+        a{
+            font-weight: bolder;
+        }
+        &:nth-child(1), &:hover{
+            background-color:  #ba9a2d !important;
+            a{
+                color: #fff;
+            }
+        }
+        
+    }
+
+}
+
+.badge-cart{
+    i{
+        font-size: 30px !important;
+        color: #444;
+    }
+    span{
+        background-color: #ba9a2d;
+    }
+}
+.promotion-card-con{
+    img{
+        width: 100% !important;
+    }
+}
