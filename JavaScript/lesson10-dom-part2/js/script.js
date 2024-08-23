@@ -38,6 +38,20 @@ form.onsubmit = submitedForm;
 
 
 
+const eyeBtn  = document.querySelector('#eyeBtn');
+eyeBtn.onclick = ()=>{
+    if (input[1].type === 'password') {
+        eyeBtn.innerHTML = "<i class='fa-solid fa-eye'></i>"
+        input[1].type = 'text';
+    }else{
+        eyeBtn.innerHTML = "<i class='fa-solid fa-eye-slash'></i>"
+        input[1].type = 'password';
+        
+    }
+}
+
+
+
 
 // const menuBtn = document.querySelector('#menuBtn');
 // const menu = document.querySelector('menu');
