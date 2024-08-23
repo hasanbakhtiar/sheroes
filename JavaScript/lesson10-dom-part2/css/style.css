@@ -1,0 +1,13 @@
+html{
+    overflow-x:hidden ;
+}
+
+menu{
+    transition: .5s;
+    width: 20%;
+    height: 40vh;
+    margin: 0;
+    background-color: antiquewhite;
+    float: right;
+    transform: translateX(500px);
+}
