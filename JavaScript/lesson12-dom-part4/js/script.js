@@ -1,3 +1,32 @@
+import { product } from "./data.js";
+
+const ul = document.querySelector('ul');
+
+let li = "";
+
+product.map(item=>{
+    li+=`<li><img src="${item.image}" width="100"/>${item.title}</li>`
+})
+
+ul.innerHTML = li;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const list = document.querySelector('ul');
 
 // console.log(list.childNodes[1].firstChild.parentNode.parentNode.lastChild.firstChild.parentNode.parentElement.firstChild.nextSibling.firstChild.parentNode.parentNode.lastChild.previousSibling.firstChild.nodeValue);
@@ -49,10 +78,12 @@
 
 
 // import {phones,h1} from './data.js';
-import * as mydata  from './data.js';
+// import * as mydata  from './data.js';
 
-console.log(mydata.phones);
+// console.log(mydata.phones);
 
-mydata.h1.innerHTML = "Mello";
+// mydata.h1.innerHTML = "Mello";
 
+
+// mydata.h1.setAttribute('class','red');
 
