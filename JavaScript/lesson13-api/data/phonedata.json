@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Samsung S24 Ultra",
+        "price":"3000",
+        "stcok":"3",
+        "color":"white"
+    },
+    {
+        "title":"Samsung S23 Ultra",
+        "price":"2000",
+        "stcok":"2",
+        "color":"white"
+    },
+    {
+        "title":"Samsung S22 Ultra",
+        "price":"1000",
+        "stcok":"1",
+        "color":"white"
+    }
+]

@@ -1,0 +1,20 @@
+<phones>
+    <item>
+        <title>Samsung S24 Ultra</title>
+        <price>3000</price>
+        <stock>3</stock>
+        <color>White</color>
+    </item>
+    <item>
+        <title>Samsung S23 Ultra</title>
+        <price>2000</price>
+        <stock>2</stock>
+        <color>White</color>
+    </item>
+    <item>
+        <title>Samsung S22 Ultra</title>
+        <price>1000</price>
+        <stock>1</stock>
+        <color>White</color>
+    </item>
+</phones>
