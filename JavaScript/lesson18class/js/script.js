@@ -7,7 +7,13 @@ class Car{
     }
 
     calculateSpeed(km,hour){
-            return `${this.iTitle} speed's ${(km/hour).toFixed()} k/h`
+        const speed = (km/hour);
+            if (speed >= 100) {
+                return `Problem`
+            }else{
+                return `${this.iTitle} speed's ${(speed).toFixed()} k/h`
+
+            }
     }
     
 }
@@ -23,10 +29,17 @@ class Moto extends Car{
             super(title,price,color,newCar);
     }
 
+    helmet(){
+        return 'helmet'
+    }
 
     
 }
 
 const myMoto = new Moto("Yamaha",2000,"red",false);
 console.log(myMoto.calculateSpeed(300,4));
+console.log(myMoto.helmet());
+console.log(myCar.he);
+
+
 
