@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import Header from './components/Header'
-import Quantity from './components/Quantity'
+import LifeCycle from './components/LifeCycle'
 
  class App extends Component {
   render() {
     return (
       <div>
-        <Header />
         <div className="container">
-            <Quantity />
+            <LifeCycle />
         </div>
       </div>
     )
