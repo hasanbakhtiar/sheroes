@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Basket = () => {
     const [product,setProduct] = useState({
@@ -7,8 +7,16 @@ const Basket = () => {
         color:"white"
     })
     const [count,setCount] = useState(0);
+    useEffect(()=>{
+      console.log('run');
+      
+    },[count])
+    // useEffect(()=>{
+    //   console.log('run');
+      
+    // })
   return (
-    <div>
+    <div className='mt-5 container'>
             <p>{product.title}</p>
             <p>price:${product.price*count}</p>
             <button className='btn btn-danger' onClick={()=>{setCount(count-1)}}>-</button>
