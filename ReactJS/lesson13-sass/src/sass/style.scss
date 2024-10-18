@@ -1,0 +1,33 @@
+@import "mixin";
+$myfontsize: 30px;
+.box {
+  .one {
+    width: 20%;
+    li {
+      @include center();
+      border-radius: 20px;
+      margin: $myfontsize;
+      background-color: red;
+      color: black;
+    }
+  }
+  .two {
+    $base-color: #036;
+
+    @for $i from 1 through 5 {
+      li:nth-child(3n + #{$i}) {
+        background-color: lighten($base-color, $i * 5%);
+      }
+    }
+    li {
+      @if ($myfontsize == 30px) {
+        @include center();
+      }
+
+      border-radius: 20px;
+      margin: 10px;
+      background-color: green;
+      color: aquamarine;
+    }
+  }
+}
