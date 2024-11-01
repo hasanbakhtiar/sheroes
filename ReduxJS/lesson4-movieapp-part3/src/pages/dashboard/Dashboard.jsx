@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { movieDel_Action } from '../../tools/actions/movieAction';
+import { movieDelToDatabase_Action } from '../../tools/actions/movieAction';
 import slugify from 'slugify';
 
 const Dashboard = () => {
@@ -33,7 +33,7 @@ const Dashboard = () => {
                                     <td>{item.title}</td>
                                     <td>${item.price}</td>
                                     <td><Link to={`/dashboard/edit/${slugify(item.title)}`} className='btn btn-warning'>Edit</Link></td>
-                                    <td><button onClick={()=>{dispatch(movieDel_Action({id:item.id}))}} className='btn btn-danger'>X</button></td>
+                                    <td><button onClick={()=>{dispatch(movieDelToDatabase_Action(item.id))}} className='btn btn-danger'>X</button></td>
                                 </tr>
                             ))}
 

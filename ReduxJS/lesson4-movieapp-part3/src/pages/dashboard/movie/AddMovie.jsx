@@ -1,7 +1,7 @@
 import React from 'react'
 import FormMovie from '../FormMovie'
 import { useDispatch } from 'react-redux'
-import { movieAdd_Action } from '../../../tools/actions/movieAction';
+import {  movieAddToDatabase_Action,  } from '../../../tools/actions/movieAction';
 import { useNavigate } from 'react-router-dom';
 
 const AddMovie = () => {
@@ -11,7 +11,7 @@ const AddMovie = () => {
     <div>
             <h1 className='alert alert-dark my-5 text-center'>Add Movie</h1>
             <FormMovie sendData={fd=>{
-                dispatch(movieAdd_Action(fd));
+                dispatch(movieAddToDatabase_Action(fd));
                 navigate('/dashboard');
             }} />
     </div>
