@@ -5,6 +5,7 @@ import Header from './layout/Header'
 import Dashboard from './pages/dashboard/Dashboard'
 import AddMovie from './pages/dashboard/movie/AddMovie'
 import EditMovie from './pages/dashboard/movie/EditMovie'
+import Login from './pages/Login'
 
 const Router = () => {
   return (
@@ -12,6 +13,7 @@ const Router = () => {
       <Header />
       <Routes>
         <Route path='/' element={<MovieList />}></Route>
+        <Route path='/login' element={<Login />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
         <Route path='/dashboard/add' element={<AddMovie />}></Route>
         <Route path='/dashboard/edit/:slug' element={<EditMovie />}></Route>

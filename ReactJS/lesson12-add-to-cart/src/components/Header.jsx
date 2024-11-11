@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap'
 import { LangContext } from '../context/LangContext'
 import { ImCart } from "react-icons/im";
 import { useCart } from 'react-use-cart'
+import StaticLang from './StaticLang'
 
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">{lang === "AZ" ? "Ana Sehife" : "Home"}</NavLink>
+              <NavLink className="nav-link" to="/"><StaticLang az="Ana Sehife" en="Home"/></NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">About</NavLink>
