@@ -1,5 +1,6 @@
 import React from 'react'
 import { useCreateUserMutation, useGetUserByIdQuery, useGetUserQuery } from './tools/services/jsonplaseholder'
+import BoomButton from './BoomButton';
 
 const App = () => {
   // const { data: user, error, isLoading } = useGetUserByIdQuery(1);
@@ -37,7 +38,7 @@ const App = () => {
 
       <form onSubmit={formSubmited}>
         <input type="text" name='title' />
-        <button>send</button>
+        <BoomButton />
       </form>
     </div>
   )
