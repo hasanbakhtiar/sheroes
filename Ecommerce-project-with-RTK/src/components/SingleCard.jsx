@@ -1,8 +1,7 @@
 import React from 'react'
 import { Button, Card, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
-const SingleCard = ({id,img,title,price}) => {
+const SingleCard = ({img,title,price}) => {
   return (
     <Col sm={12} md={4}>
       <Card>
@@ -10,7 +9,7 @@ const SingleCard = ({id,img,title,price}) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle>{price}</Card.Subtitle>
-          <Link to={`/product/${id}`} variant="warning me-2">Details</Link>
+          <Button variant="warning me-2">Details</Button>
           <Button variant="dark">Add to cart</Button>
         </Card.Body>
       </Card>
