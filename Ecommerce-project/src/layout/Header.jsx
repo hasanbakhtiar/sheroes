@@ -1,6 +1,5 @@
-import React from 'react'
-import { Container,Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Navbar expand="lg" className="bg-dark navbar-dark">
@@ -9,17 +8,27 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/products">Products</Nav.Link>
-            
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/products">
+              Products
+            </Nav.Link>
           </Nav>
-          <Link to="/login" className='btn btn-outline-warning'>Sign In</Link>
-          <Link to="/register" className='btn btn-warning ms-3'>Sign Up</Link>
+          <Link to="/login" className="btn btn-outline-warning">
+            Sign In
+          </Link>
+          <Link to="/register" className="btn btn-warning ms-3">
+            Sign Up
+          </Link>
+
+          <Link to="/basket" className="btn btn-warning ms-3">
+            Basket
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

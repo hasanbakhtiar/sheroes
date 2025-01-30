@@ -17,7 +17,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
     "react-spinners": "^0.15.0",
-    "sass": "^1.83.1"
+    "sass": "^1.83.1",
+    "sweetalert2": "^11.15.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
