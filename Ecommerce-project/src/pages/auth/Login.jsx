@@ -1,28 +1,35 @@
 import axios from "axios";
-import { useRef } from "react";
+import { useContext, useRef } from "react";
+import BaseUrlContext from "../../context/BaseUrlContext";
+import { useCookies } from "react-cookie";
+
+
+
 
 const Login = () => {
+  const [cookies, setCookie] = useCookies(['cookie-e']);
   const passRef = useRef();
   const emailRef = useRef();
-
+const [baseUrl, header] = useContext(BaseUrlContext);
   const formSubmit = (e) => {
     e.preventDefault();
     axios
       .post(
-        `https://matrixacademylessonapi.webluna.org/login`,
+        `${baseUrl}/login`,
         {
           email: emailRef.current.value,
           password: passRef.current.value,
         },
-        {
-          headers: {
-            "lesson-access": "bd859cade3ac0dd3165f793b641e40cd",
-          },
-        },
+        header,
       )
-      .then((res) => console.log(res));
+      .then((res) => {
+        // console.log(res.data)
+        setCookie("cookie-e",res.data);
+      });
+      
   };
 
+  
   return (
     <div>
       <p className="h1 text-center my-5">Login</p>

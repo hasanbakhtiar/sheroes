@@ -9,6 +9,7 @@ import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Account from "./pages/auth/Account";
 import Basket from "./pages/auth/Basket";
+import Test from "./pages/Test";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
       <div style={{ height: "70vh" }}>
         <Container>
           <Routes>
+            <Route element={<Test />} path="/test"></Route>
+            
             <Route element={<Home />} path="/"></Route>
             <Route element={<Product />} path="/products"></Route>
             <Route element={<ProductDetails />} path="/product/:id"></Route>

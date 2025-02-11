@@ -41,7 +41,6 @@ const Register = () => {
             } else {
               Swal.fire({
                 title: "Something went wrong!",
-
                 icon: "error",
               });
             }
