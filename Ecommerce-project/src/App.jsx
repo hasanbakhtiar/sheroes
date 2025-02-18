@@ -10,6 +10,7 @@ import Register from "./pages/auth/Register";
 import Account from "./pages/auth/Account";
 import Basket from "./pages/auth/Basket";
 import Test from "./pages/Test";
+import Start from "./pages/dashboard/Start";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
             <Route element={<Register />} path="/register"></Route>
             <Route element={<Account />} path="/account"></Route>
             <Route element={<Basket />} path="/basket"></Route>
+            <Route element={<Start />} path="/dashboard"></Route>
             {/* Auth end */}
           </Routes>
         </Container>

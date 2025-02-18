@@ -23,7 +23,7 @@ const [baseUrl, header] = useContext(BaseUrlContext);
         header,
       )
       .then((res) => {
-        // console.log(res.data)
+        console.log(res.data)
         setCookie("cookie-e",res.data);
       });
       

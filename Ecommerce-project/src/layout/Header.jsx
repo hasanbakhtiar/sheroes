@@ -21,6 +21,9 @@ const Header = () => {
           <Link to="/register" className="btn btn-warning ms-3">
             Sign Up
           </Link>
+          <Link to="/dashboard" className="btn btn-warning ms-3">
+            Dashboard
+          </Link>
 
           <Link to="/basket" className="btn btn-warning ms-3">
             Basket

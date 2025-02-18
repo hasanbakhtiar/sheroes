@@ -1,16 +1,13 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { ListGroup } from 'react-bootstrap'
+import BaseUrlContext from '../context/BaseUrlContext';
 
 const Category = ({sendData}) => {
     const [data, setData] = useState([]);
-
+    const [baseUrl,header] =useContext(BaseUrlContext);
   useEffect(() => {
-    axios.get('https://matrixacademylessonapi.webluna.org/category', {
-      headers: {
-        "lesson-access": "bd859cade3ac0dd3165f793b641e40cd"
-      }
-    })
+    axios.get(`${baseUrl}/category`, header)
       .then(res => setData(res.data))
   }, [])
 

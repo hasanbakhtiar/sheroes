@@ -38,7 +38,7 @@ const Product = () => {
           <Col sm={12} md={9}>
             <Row className='g-4'>
               {data.map(item => (
-                <SingleCard id={item._id} key={item._id} title={item.title} price={item.price} img={item.coverImage} />
+                <SingleCard alldata={item} />
               ))}
             </Row>
           </Col>
